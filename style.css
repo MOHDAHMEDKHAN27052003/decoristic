@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header img{
+    width: 10%;
+}
+
+header{
+    padding-top: 2.5%;
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 15px;
+}
+
+header #nav-container{
+    display: flex;
+    align-items: center;
+}
+
+header #nav-one{
+    margin-left: 66px;
+}
+
+header #nav-two{
+    margin-left: 200px;
+}
+
+header button{
+    padding: 10px;
+    background-color: darkgoldenrod;
+    border: 1px;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+#section-one{
+    background-image: url(background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#section-one-content h1{
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+#section-one-content{
+    margin-left: 16.66%;
+}
+
+#section-one-content p{
+    font-size: large;
+    margin-bottom: 3.33%;
+}
+
+#section-one-content button{
+    padding: 10px;
+    background-color: darkgoldenrod;
+    border: 1px;
+    border-radius: 5%;   
+}
+
+#section-one > aside > i{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+#section-one aside{
+    margin-top: 10%;
+}
+
+#section-one-footer{
+    margin-left: 16.66%;
+    margin-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+#section-one-footer span{
+    margin-inline-end: 3.33%;
+}
+
+#section-two-heading{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.section-two-row-one-image img{
+    display: block;
+    width: 166px;
+    height: 200px;
+    margin-bottom: 5%;
+}
+
+#section-two{
+    margin: 0 21%;
+}
+
+#section-two-row-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-two-row-two{
+    margin-top: 15%;
+    display: flex;
+}
+
+#section-two-row-two img{
+    width: 33%;
+    height: 333px;
+    margin-right: 5%;
+}
+
+#section-two-row-two-content h1{
+    margin-bottom: 5%;
+}
+
+#section-two-row-two-content p{
+    padding: 5% 12.5%;
+}
+
+#section-two-row-two #border{
+    border: 5px solid goldenrod;
+    margin-top: 5%;
+    margin-left: -75px;
+}
+
+#section-two-row-three{
+    display: flex;
+    margin-top: 15%;
+}
+
+#section-two-row-three-image-container{
+    display: flex;
+    margin-right: -266px;
+}
+
+.section-two-row-three-image{
+    margin-left: 20px;
+}
+
+#section-two-row-three img{
+    width: 250px;
+    height: 300px;
+}
+
+#section-two-row-three-content h1{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#section-two-row-three-content button{
+    margin-top: 25px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    border: 1px;
+    border-radius: 5%;
+}
+
+#section-two-row-four{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#section-two-row-four h1{
+    margin-bottom: 33px;
+}
+
+#reviews{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#reviews img{
+    width: 110px;
+    height: 140px;
+}
+
+#reviews h5{
+    margin: 15px 0;
+}
+
+.review-content{
+    width: 200px;
+    margin: 0 10px;
+}
+
+.review{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer img{
+    display: block;
+    width: 100px;
+}
+
+footer #copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    padding-left: 266px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background-color: gray;
+    display: flex;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer-column{
+    width: 33%;
+}
+
+footer #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 200px;
+}
+
+footer #social-icons{
+    display: flex;
+    justify-content: left;
+}
+
+#footer-links{
+    padding: 0 75px;
+}
+
+.menu{
+    display: none;
+}

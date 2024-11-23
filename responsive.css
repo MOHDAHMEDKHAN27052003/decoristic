@@ -1,0 +1,114 @@
+@media screen and (max-width: 1250px) {
+    header #nav-one{
+        margin-left: 25px;
+    }
+    
+    header #nav-two{
+        margin-left: 75px;
+    }
+
+    #section-two-row-one{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+
+    .section-two-row-one-image img{
+        margin-top: 15%;
+    }
+
+    #section-two-row-three{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section-two-row-three-image-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-two-row-three-image{
+        margin-top: 25px;
+    }
+
+    .review-content{
+        margin-left: 15px;
+    }
+
+    .review:nth-child(2){
+        margin-top: 33px;
+    }
+
+    #reviews{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    nav{
+        display: none;
+    }
+
+    .menu{
+        display: initial;
+        margin-left: 80%;
+    }
+
+    #section-two-row-two img{
+        width: 60%;
+        height: auto;
+    }
+
+    #section-two-row-three-image-container{
+        margin-right: 0;
+    }
+
+    .review-content{
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    footer{
+        padding-left: 133px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    #section-one-footer span{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    #section-two-row-two{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #section-two-row-two img{
+        width: 100%;
+    }
+    
+    #section-two-row-two-content h1{
+        margin-top: 5%;
+    }
+    
+    #section-two-row-two #border{
+        margin-left: -25px;
+    }
+
+    #section-two-row-three-image-container{
+        margin-left: -33px;
+    }
+
+    .review-content{
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    /* footer #contact{
+        margin-top: 50px;
+        margin-left: 50px;
+    } */
+}
